@@ -1,6 +1,7 @@
 import './globals.css'
 import type {Metadata} from 'next'
 import {Inter, Press_Start_2P} from 'next/font/google'
+import Fathom from "@/components/Fathom";
 
 const inter = Inter({
   subsets: ['latin'],
@@ -33,7 +34,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} ${pressStart2P.variable}`}>{children}</body>
+      <body className={`${inter.className} ${pressStart2P.variable}`}>
+      <Fathom />
+      {children}
+      </body>
     </html>
   )
 }
