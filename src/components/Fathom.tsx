@@ -12,7 +12,7 @@ function TrackPageView() {
     // Load the Fathom script on mount
     useEffect(() => {
         load("SBTLVXUW", {
-            includedDomains: ["blockga.me"],
+            includedDomains: ["blockgame.dev"],
             auto: false,
         });
     }, []);
