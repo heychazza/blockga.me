@@ -28,16 +28,16 @@ export const metadata: Metadata = {
 }
 
 export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
+                                       children,
+                                   }: {
+    children: React.ReactNode
 }) {
-  return (
-    <html lang="en">
-      <body className={`${inter.className} ${pressStart2P.variable}`}>
-      <Fathom />
-      {children}
-      </body>
-    </html>
-  )
+    return (
+        <html lang="en">
+        <body className={`${inter.className} ${pressStart2P.variable}`}>
+        <Fathom />
+        {children}
+        </body>
+        </html>
+    )
 }
