@@ -6,7 +6,7 @@ export default function Home() {
             <div className="relative isolate overflow-hidden h-screen">
                 <img className="w-52 mx-auto" src="https://pbs.twimg.com/media/F_jBCNLXoAAR7OK?format=jpg&name=medium" />
                 
-                <div className="px-6 lg:px-8">
+                <div className="px-6 lg:px-8 -mt-32">
                     <div className="flex items-center flex-col justify-center h-screen">
                         <div className="mx-auto max-w-2xl flex-shrink-0 lg:mx-0 lg:max-w-4xl">
                             
