@@ -4,7 +4,7 @@ export default function Home() {
     return (
         <main>
             <div className="relative isolate overflow-hidden h-screen">
-                <img class="w-52 mx-auto" src="https://pbs.twimg.com/media/F_jBCNLXoAAR7OK?format=jpg&name=medium" />
+                <img className="w-52 mx-auto" src="https://pbs.twimg.com/media/F_jBCNLXoAAR7OK?format=jpg&name=medium" />
                 
                 <div className="px-6 lg:px-8">
                     <div className="flex items-center flex-col justify-center h-screen">
