@@ -11,8 +11,8 @@ function TrackPageView() {
 
     // Load the Fathom script on mount
     useEffect(() => {
-        load("DWQHEEUQ", {
-            includedDomains: ["www.blockgame.dev"],
+        load("IVAFTGBU", {
+            includedDomains: ["brokeboycookies.com"],
             auto: false,
         });
     }, []);
