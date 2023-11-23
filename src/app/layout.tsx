@@ -8,16 +8,9 @@ const inter = Inter({
   display: "swap",
 })
 
-const pressStart2P = Press_Start_2P({
-  subsets: ['latin'],
-  weight: "400",
-  display: "swap",
-  variable: '--font-press-start',
-})
-
 export const metadata: Metadata = {
-  title: 'BlockGame Labs',
-  description: 'We\'re a nimble, one-man studio with big impact, focusing on crafting sleek websites, engaging servers, and open-source game plugins.',
+  title: 'Broke Boy Cookies',
+  description: 'After 2 years of development we are proud to finally serve our new, original cookies.',
   icons: {
     icon: [{
         url: '/favicon.svg',
@@ -34,7 +27,7 @@ export default function RootLayout({
 }) {
     return (
         <html lang="en">
-        <body className={`${inter.className} ${pressStart2P.variable}`}>
+        <body className={`${inter.className}`}>
         <Fathom />
         {children}
         </body>
